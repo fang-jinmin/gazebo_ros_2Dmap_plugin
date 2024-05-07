@@ -10,7 +10,7 @@ To include the plugin, add the following line in between the `<world> </world>` 
 ```
 <plugin name='gazebo_occupancy_map' filename='libgazebo_2Dmap_plugin.so'>
     <map_resolution>0.1</map_resolution> <!-- in meters, optional, default 0.1 -->
-    <map_height>0.3</map_height>         <!-- in meters, optional, default 0.3 -->
+    <map_z>0.3</map_z>         <!-- in meters, optional, default 0.3 -->
     <map_size_x>10</map_size_x>          <!-- in meters, optional, default 10 -->
     <map_size_y>10</map_size_y>          <!-- in meters, optional, default 10 -->
     <init_robot_x>0</init_robot_x>          <!-- x coordinate in meters, optional, default 0 -->
